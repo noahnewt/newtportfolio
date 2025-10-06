@@ -1,5 +1,5 @@
 import resume from '@/assets/NoahNewtonResume.pdf'
-import { Code, Lock } from 'lucide-react';
+import { Code, Lock, User } from 'lucide-react';
 
 export const AboutSection = () => {
   return (
