@@ -1,5 +1,5 @@
 import resume from '@/assets/NoahNewtonResume.pdf'
-import { Code } from 'lucide-react';
+import { Code, Lock } from 'lucide-react';
 
 export const AboutSection = () => {
   return (
@@ -51,10 +51,11 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Embedded Development
+                    Embedded Software Development
                   </h4>
                     <p className="text-muted-foreground">
-                      WIP
+                      Designed and maintained C/C++ firmware for print and scan devices
+                      across ARM and x86 platforms.
                     </p>
                 </div>
               </div>
@@ -62,14 +63,15 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card=hover"> 
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code  className="h-6 w-6 text-primary"/>
+                  <Lock  className="h-6 w-6 text-primary"/>
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Embedded Development
+                    Secure System Integration
                   </h4>
                     <p className="text-muted-foreground">
-                      WIP
+                      Integrated OpenSSL, PAM, and libfido2 into Yocto-based embedded Linux builds to strengthen security 
+                      and keep systems up to date with modern standards.
                     </p>
                 </div>
               </div>
@@ -77,14 +79,15 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card=hover"> 
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code  className="h-6 w-6 text-primary"/>
+                  <User  className="h-6 w-6 text-primary"/>
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Embedded Development
+                    Technical Leadership & Operations
                   </h4>
                     <p className="text-muted-foreground">
-                      WIP
+                      Led Navy IT teams managing secure networks, communications, and cybersecurity 
+                      operations during multinational exercises and missions.
                     </p>
                 </div>
               </div>
